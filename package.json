@@ -1,45 +1,41 @@
 {
-  "name": "spacex-platzi",
+  "name": "santiaguf.github.io",
   "version": "1.0.0",
-  "description": "A web application that shows info of SpaceX, using spaceX rest API",
+  "description": "personal website",
   "main": "index.html",
   "scripts": {
+    "start": "serve ./",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "eslint": "eslint --ext .js src/ test/",
-    "htmlhint": "htmlhint src/*.html test/*.html",
-    "pretest": "npm run eslint && npm run htmlhint",
-    "test": "jest --verbose --coverage",
-    "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-    "start": "serve src/"
+    "lint:fix:file": "eslint --fix "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santiaguf/spacex-platzi.git"
+    "url": "git+https://github.com/santiaguf/santiaguf.github.io.git"
   },
   "keywords": [
-    "platzi",
-    "spacex",
-    "API"
+    "portfolio",
+    "personal-website",
+    "spa"
   ],
   "author": "Santiago Bernal @santiaguf",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/santiaguf/spacex-platzi/issues"
+    "url": "https://github.com/santiaguf/santiaguf.github.io/issues"
   },
-  "homepage": "https://github.com/santiaguf/spacex-platzi#readme",
+  "homepage": "https://github.com/santiaguf/santiaguf.github.io#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.7",
+    "babel-jest": "^27.5.1",
     "eslint": "^8.12.0",
-    "htmlhint": "^1.1.3",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
     "localtunnel": "^2.0.2",
     "serve": "^13.0.2"
-  },
-  "dependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
-    "babel-jest": "^27.5.1",
-    "jest": "^27.5.1",
-    "jest-fetch-mock": "^3.0.3",
-    "opener": "^1.5.2"
   }
 }
