@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santiaguf/santiaguf.github.io.git"
+    "url": "git+https://github.com/santywin/santywin.github.io.git"
   },
   "keywords": [
     "portfolio",
     "personal-website",
     "spa"
   ],
-  "author": "Santiago Bernal @santiaguf",
+  "author": "Santiago Castro @santiaguf",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/santiaguf/santiaguf.github.io/issues"
